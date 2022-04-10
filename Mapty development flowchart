@@ -1,1 +1,126 @@
-<mxfile host="app.diagrams.net" modified="2022-04-10T17:11:13.267Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" version="17.4.2" etag="zO7DEGFnc06Gl6fDDEei" type="github"><diagram id="odB16ph0wCTv9dURNVu6">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-10T17:31:36.609Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="n4j57K826iOoYCAJwIdu" version="17.4.2" type="github">
+  <diagram id="odB16ph0wCTv9dURNVu6" name="Page-1">
+    <mxGraphModel dx="523" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9ISpUV70edbYrtKVt7lx-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.89;exitY=0.89;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=30;entryPerimeter=0;" edge="1" parent="1" source="9ISpUV70edbYrtKVt7lx-2" target="9ISpUV70edbYrtKVt7lx-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-2" value="Page loads" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="10" y="30" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="9ISpUV70edbYrtKVt7lx-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="59.5" as="sourcePoint" />
+            <mxPoint x="190" y="59.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9ISpUV70edbYrtKVt7lx-4" target="9ISpUV70edbYrtKVt7lx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="9ISpUV70edbYrtKVt7lx-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-4" value="Get current location coordinates" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="180" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="9ISpUV70edbYrtKVt7lx-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-5" value="Render map on current location" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="360" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9ISpUV70edbYrtKVt7lx-10" target="9ISpUV70edbYrtKVt7lx-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-10" value="User clicks on map" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="560" y="30" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-11" value="Bind Handler" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9ISpUV70edbYrtKVt7lx-12" target="9ISpUV70edbYrtKVt7lx-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-12" value="Render workout form" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9ISpUV70edbYrtKVt7lx-16" target="9ISpUV70edbYrtKVt7lx-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.11;exitY=0.11;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9ISpUV70edbYrtKVt7lx-16" target="9ISpUV70edbYrtKVt7lx-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.11;exitY=0.89;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=120;entryDy=40;entryPerimeter=0;" edge="1" parent="1" source="9ISpUV70edbYrtKVt7lx-16" target="9ISpUV70edbYrtKVt7lx-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-16" value="User submits new workout" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="730" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-17" value="Bind Handler" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.009;entryY=0.746;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="9ISpUV70edbYrtKVt7lx-19" target="9ISpUV70edbYrtKVt7lx-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-19" value="Render workout in list" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-22" value="Render workout on map" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="530" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-24" value="Many" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.layered_rect;dx=10;outlineConnect=0;rotation=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="530" y="320" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=120;exitDy=25;exitPerimeter=0;" edge="1" parent="1" source="9ISpUV70edbYrtKVt7lx-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="145.31578947368428" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=120;exitDy=40;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9ISpUV70edbYrtKVt7lx-26" target="9ISpUV70edbYrtKVt7lx-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="160" />
+              <mxPoint x="490" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-26" value="Many" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.layered_rect;dx=10;outlineConnect=0;rotation=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="180" y="120" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-27" value="Move map to workout location" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="180" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9ISpUV70edbYrtKVt7lx-28" target="9ISpUV70edbYrtKVt7lx-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-28" value="User clicks on workout in list" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="363.5" y="230" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-37" value="Load workouts from local storage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="135" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-38" value="Store workouts in local storage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="330" width="86" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-39" value="Bind Handler" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="463.5" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-40" value="Async" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9ISpUV70edbYrtKVt7lx-41" value="After map loaded" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="350" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
